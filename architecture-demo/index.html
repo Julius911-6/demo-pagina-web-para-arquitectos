@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A R X - Estudio de Arquitectura | Demo</title>
+    <meta name="description" content="A R X es una demostración de un sitio web premium para servicios de arquitectura moderna, utilizando diseño glassmorphism y micro-animaciones.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">A R X .</a>
+            <ul class="nav-links">
+                <li><a href="#about">Filosofía</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact" class="btn-contact">Contactar</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <img src="C:\Users\Usuario\.gemini\antigravity\brain\1a111b8f-a046-447d-ab9a-735ca48de40e\hero_architecture_1782168986452.png" alt="Arquitectura Moderna">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content fade-in-up">
+            <div class="demo-badge">ESTO ES UNA DEMOSTRACIÓN</div>
+            <h1>Diseñando el<br>Futuro del Espacio.</h1>
+            <p>Creamos estructuras atemporales que desafían la gravedad y elevan la experiencia humana.</p>
+            <a href="#portfolio" class="btn-primary">Explorar Proyectos</a>
+        </div>
+        <div class="scroll-indicator">
+            <p>Descubrir</p>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2 class="section-title">Nuestra <span>Filosofía</span></h2>
+                    <p class="lead">No solo construimos edificios, esculpimos el entorno para crear experiencias inmersivas.</p>
+                    <p>Esta es una página de demostración. En A R X creemos en la fusión de la estética brutalista con la sostenibilidad moderna. Cada línea, cada sombra y cada textura está pensada para interactuar con la luz natural y el entorno.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Años de <br>Experiencia</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Proyectos <br>Globales</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal delay-1">
+                    <div class="glass-card">
+                        <h3>"La arquitectura es el juego sabio, correcto y magnífico de los volúmenes bajo la luz."</h3>
+                        <p>- Le Corbusier</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding dark-bg">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Obras <span>Destacadas</span></h2>
+                <p>Una selección de nuestros proyectos más ambiciosos y galardonados.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="C:\Users\Usuario\.gemini\antigravity\brain\1a111b8f-a046-447d-ab9a-735ca48de40e\portfolio_1_1782168995467.png" alt="Residencia Minimalista">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span>Residencial</span>
+                                <h3>Villa Lumina</h3>
+                                <a href="#" class="project-link">Ver Detalles →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-img">
+                        <img src="C:\Users\Usuario\.gemini\antigravity\brain\1a111b8f-a046-447d-ab9a-735ca48de40e\portfolio_2_1782169005615.png" alt="Edificio Sostenible">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span>Comercial</span>
+                                <h3>Torre Eco-Sphere</h3>
+                                <a href="#" class="project-link">Ver Detalles →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 (Using Hero as placeholder for a third) -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-img">
+                        <img src="C:\Users\Usuario\.gemini\antigravity\brain\1a111b8f-a046-447d-ab9a-735ca48de40e\hero_architecture_1782168986452.png" alt="Museo Brutalista">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span>Cultural</span>
+                                <h3>Museo de Arte Moderno</h3>
+                                <a href="#" class="project-link">Ver Detalles →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Nuestra <span>Expertise</span></h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card glass-panel reveal">
+                    <div class="service-icon">01</div>
+                    <h3>Diseño Arquitectónico</h3>
+                    <p>Conceptualización y desarrollo de espacios desde la primera idea hasta los planos constructivos.</p>
+                </div>
+                <div class="service-card glass-panel reveal delay-1">
+                    <div class="service-icon">02</div>
+                    <h3>Diseño de Interiores</h3>
+                    <p>Creación de ambientes interiores que combinan funcionalidad, lujo y bienestar.</p>
+                </div>
+                <div class="service-card glass-panel reveal delay-2">
+                    <div class="service-icon">03</div>
+                    <h3>Urbanismo</h3>
+                    <p>Planificación de espacios públicos y desarrollos urbanos sostenibles y amigables con el entorno.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding dark-bg">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Iniciemos un <span>Proyecto</span></h2>
+                    <p>Esta es una página de demostración. No se enviarán correos reales.</p>
+                    
+                    <div class="info-list">
+                        <div class="info-item">
+                            <h4>Estudio Principal</h4>
+                            <p>Av. Arquitectura 101, Distrito Creativo<br>Ciudad Metropolitana</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Contacto</h4>
+                            <p>demo@arx-estudio.com<br>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container glass-panel reveal delay-1">
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Esto es una demostración. Formulario no enviado.');">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Tu Nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Tu Correo Electrónico">
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" required>
+                                <option value="" disabled selected>Tipo de Proyecto</option>
+                                <option value="residencial">Residencial</option>
+                                <option value="comercial">Comercial</option>
+                                <option value="interiorismo">Interiorismo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" required placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>A R X .</h2>
+                <p>Elevando estándares. Redefiniendo espacios.</p>
+                <div class="demo-badge-small">DEMOSTRACIÓN</div>
+            </div>
+            <div class="footer-links">
+                <p>&copy; 2026 A R X Estudio. Todos los derechos reservados.</p>
+                <p>Diseñado para propósitos de demostración.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
